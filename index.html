@@ -6,6 +6,18 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <link rel="preconnect" href="'https://fonts.googleapis.com">
+    <link rels="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display= rel="stylesheet">   
+    <button id="dark-mode-toggle">🌙</button>
+    <meta name="description" content="Software Engineer Portfolio showcasing projects, skills, and contact info.">
+<meta name="keywords" content="Software Engineer, Web Developer, Portfolio, Frontend, Backend">
+<meta name="author" content="Your Name">
+<meta property="og:title" content="Your Name - Software Engineer">
+<meta property="og:description" content="A showcase of my projects, skills, and expertise.">
+<meta property="og:image" content="assets/images/portfolio-thumbnail.jpg">
+<meta property="og:url" content="https://yourportfolio.com">
+
 </head>
 <body>
 
@@ -17,45 +29,59 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">&#9776;</div>
         </nav>
     </header>
 
     <section id="hero">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>A passionate software engineer</p>
+        <h1>Hi, I'm <span class="highlight">Agim Uchechukwu Chigozie</span></h1>
+        <p>A Junior Software engineer | UI/UX Designer | Data Analyst |Tech Enthusiast</p>
         <a href="#projects" class="btn">View My Work</a>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a software engineer specializing in full-stack development.</p>
+        <p>I'm a software engineer specializing in full-stack development. skilled in the designing user friendly interface using figma and carrying our data analysis on Student research project</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-grid">
+        <div class="project-container">
             <div class="project-card">
                 <img src="assets/images/project1.jpg" alt="Project 1">
-                <h3>Project Name</h3>
+                <h3>Project 1</h3>
                 <p>Description of the project.</p>
             </div>
-            <!-- Add more project cards -->
+            <div class="project-card">
+                <img src="assets/images/project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of the project.</p>
         </div>
     </section>
+    <section id="blog">
+        <h2>Latest Articles</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <h3>Blog Title 1</h3>
+                <p>Short description of the article...</p>
+                <a href="blog-post.html">Read More</a>
+            </div>
+            <!-- Add more blog posts -->
+        </div>
+    </section>    
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+        <form action="https://formspree.io/f/your_form_id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
-        </form>
+            <p>Email: agimuche1@gmail.com</p>
+        </form>        
     </section>
 
     <footer>
-        <p>© 2025 [Your Name]. All rights reserved.</p>
+        <p>© 2025 Agim Uchechukwu c.. All rights reserved.</p>
     </footer>
 
 </body>
